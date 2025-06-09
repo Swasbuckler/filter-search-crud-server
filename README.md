@@ -4,7 +4,7 @@ For the Full Stack Application, Express with a PostgreSQl Database was used for 
 
 It will detail the features, database and packages used, which includes details of the PostgreSQL Database and Express Server.
 
-Repository of the Angular Frontend for this application: https://github.com/Swasbuckler/filter-search-crud-angular \
+Repository of the Angular Frontend for this application: https://github.com/Swasbuckler/filter-search-crud-angular
 
 Repository of the React Frontend for this application: <i>Work in Progress</i>
 
