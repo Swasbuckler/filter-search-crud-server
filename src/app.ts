@@ -5,7 +5,7 @@ import express from 'express';
 import { Express } from 'express';
 import cors from 'cors';
 import setRoutes from './routes/head-router';
-'tt'
+
 const app: Express = express();
 
 const corsOptions: { origin: string } = {
