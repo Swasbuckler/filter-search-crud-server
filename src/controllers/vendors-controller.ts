@@ -277,7 +277,7 @@ export async function updateVendor( req: Request, res: Response ) {
             return;
           } else {
 
-            updateVendor[data] = typeId ? typeId.id : null;
+            updateVendor[data] = typeId.type_id;
 
             addList = [ ...addList.slice(), `type_id = $${++currentIndex}`];
             valueList = [ ...valueList.slice(), Number( updateVendor[data] ) ];
