@@ -180,12 +180,12 @@ function handleFilter( tableDetails: ColumnInfoAlias[], filter: Filter, currentI
 
     case 'in':
       filterString = `(${ column.alias }::text ILIKE $${++thisIndex})`;
-      filterValue = [ filter.values[0].toString() ];
+      filterValue = [ '%' + filter.values[0].toString() + '%' ];
       break;
 
     case '!in':
       filterString = `(${ column.alias }::text NOT ILIKE $${++thisIndex})`;
-      filterValue = [ filter.values[0].toString() ];
+      filterValue = [ '%' + filter.values[0].toString() + '%' ];
       break;
 
     case '<':
