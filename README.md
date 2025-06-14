@@ -12,7 +12,8 @@ I will return to working on this project at a later date, as I wish to focus my 
 
 ## What have I Achieved and Learnt through this Project
 
-Through the development cycle of this project I have learnt a lot of key concepts related to Angular, Express and PostgreSQL.\
+Through the development cycle of this project I have learnt a lot of key concepts related to Angular, Express and PostgreSQL.
+
 For Express specifically, I have developed the Backend Server roughly using the Model-View-Controller (MVC) architecture. Although it is not exactly following MVC, it helped guided me in creating a file structure that helped in development clarity. Using this structure, in an environment where it was not neccessary taught me the significance of setting an architecture and how it helps in development. I hope to carry over this understanding when planning for future projects.
 
 For PostgreSQL, this was the first time I had used and experienced managing a PostgreSQL database in a Personal Project. I have learnt a lot in terms of database communication with the backend server as well as the differences it has to MySQL. In the case where I have to use PostgreSQL for other projects in the future, I hope to used this gathered knowledge.
